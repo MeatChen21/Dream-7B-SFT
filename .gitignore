@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+runs/
+outputs/
+checkpoints/
+lightning_logs/
+wandb/
+logs/
+
+# Data / models (不要直接进Git)
+data/
+*.pt
+*.bin
+*.ckpt
+*.pth
+*.safetensors
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
